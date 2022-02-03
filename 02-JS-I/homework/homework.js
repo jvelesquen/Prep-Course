@@ -106,19 +106,6 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  {
-    if(numero % 2 == 0)
-    {
-        cout<<"El numero es Par";
-    }
-    else
-    {
-        cout<<"El numero es Impar";
-    }
-
-    return true;
-    return false;
-}
 
 
 function esImpar(num) {
