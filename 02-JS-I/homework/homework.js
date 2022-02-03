@@ -4,7 +4,7 @@
 const nuevaString = 'justin';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 5;
+const nuevoNum = 3;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -34,26 +34,26 @@ function devolverString(str) {
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 
+  suma(1,2)
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  resta(1,2)
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  multiplica(1,2)
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  divide(10,2)
 }
 
 function sonIguales(x, y) {
