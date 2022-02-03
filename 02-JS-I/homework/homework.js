@@ -60,7 +60,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x = y
+   if (x = y){
+     return true
+   }
+   return false
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -103,8 +106,20 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  {
+    if(numero % 2 == 0)
+    {
+        cout<<"El numero es Par";
+    }
+    else
+    {
+        cout<<"El numero es Impar";
+    }
+
+    return true;
+    return false;
 }
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
