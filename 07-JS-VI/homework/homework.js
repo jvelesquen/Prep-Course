@@ -26,7 +26,7 @@ function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
-  //Tu código:
+  //Tu código:                                     // .reduce funciona como el for, recorre todo el array
   // Primera opcion
   // var numeros = [1,2,3,4,5]
   // var suma = 0;
@@ -36,8 +36,8 @@ function sumarArray(numeros, cb) {
   // cb(suma);
 
   // Segunda opcion
-  var sumaTotal = numeros.reduce(function(acc, curr) {
-    return acc + curr;
+  var sumaTotal = numeros.reduce(function(valorAnterior, valorActual) {
+    return valorAnterior + valorActual;
   },0);
   cb(sumaTotal);
 }
